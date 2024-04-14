@@ -9,7 +9,7 @@ app.use(bodyParser.json())
 const cors = require("cors")
  
 const corOptions = {
-    origin:"http://localhost:5173",
+    origin:"https://luminous-pixie-df1000.netlify.app",
     methods:"GET ,POST ,PUT ,DELETE,PATCH",
     Credential:true
 
