@@ -1,7 +1,7 @@
 const registerModel = require("./models/registerModel")
 const bcrypt = require("bcryptjs")
-const productModel = require("../server/models/product")
-const contactModel =require("../server/models/contact")
+const productModel = require("./models/product")
+const contactModel =require("./models/contact")
 const home = async(req,res)=>{
     res.send("hello new home")
 }
